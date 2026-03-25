@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            max-width: 800px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 5px;
+            font-size: 2.5em;
+        }
+        .subtitle {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #34495e;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 8px;
+            margin-top: 30px;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .interactive-btn {
+            display: block;
+            width: 220px;
+            margin: 40px auto 10px;
+            padding: 12px;
+            text-align: center;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background-color 0.3s;
+        }
+        .interactive-btn:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Student Resume</h1>
+        <div class="subtitle">Born: 2003 | Asia University</div>
+
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Asia University</strong></li>
+            <li>Major: Information and Communication</li>
+        </ul>
+
+        <h2>Academic Projects</h2>
+        <ul>
+            <li><strong>921 Earthquake Museum Video Project:</strong> Applied semiotics concepts to analyze and produce educational video content.</li>
+            <li><strong>Digital Creation and Marketing:</strong> Directed, filmed, and interviewed for a short-form video project focusing on local businesses.</li>
+        </ul>
+
+        <h2>Skills & Interests</h2>
+        <ul>
+            <li><strong>Software & Tools:</strong> Video editing (Adobe Premiere Pro).</li>
+            <li><strong>Interests:</strong> Short-form video marketing, game mechanics analysis, and strategy games (Texas Hold'em).</li>
+        </ul>
+
+        <button class="interactive-btn" onclick="sayHello()">Click for Greeting</button>
+    </div>
+
+    <script>
+        function sayHello() {
+            alert("Hello! Thanks for reviewing my resume. I'm passionate about digital communication and video creation!");
+        }
+    </script>
+</body>
+</html>
